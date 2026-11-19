@@ -1,2 +1,11 @@
 .env
 node_modules
+# ML: keep scripts, ignore data, envs and weights
+ml/.venv/
+ml/raw/
+ml/dataset/
+ml/dataset_real/
+ml/my_photos/
+ml/*.zip
+ml/*.keras
+ml/preview.jpg

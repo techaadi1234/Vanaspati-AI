@@ -9,8 +9,6 @@
       "partsUsed": ["leaf", "seed"],
       "preparation": "Leaves used fresh or as a decoction (kadha).",
       "precautions": "Educational information only. Consult a qualified practitioner before use.",
-      "modelUrl": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-      "modelCredit": "Demo model from modelviewer.dev",
       "location": { "type": "Point", "coordinates": [86.9842, 25.2425] }
     },
     {
@@ -23,8 +21,6 @@
       "partsUsed": ["leaf", "bark", "seed oil"],
       "preparation": "Leaf paste for topical use; twigs traditionally used for dental care.",
       "precautions": "Educational information only. Consult a qualified practitioner before use.",
-      "modelUrl": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-      "modelCredit": "Demo model from modelviewer.dev",
       "location": { "type": "Point", "coordinates": [86.9850, 25.2430] }
     },
     {
@@ -37,8 +33,54 @@
       "partsUsed": ["root"],
       "preparation": "Root powder (churna), traditionally taken with milk.",
       "precautions": "Educational information only. Consult a qualified practitioner before use.",
-      "modelUrl": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
-      "modelCredit": "Demo model from modelviewer.dev",
       "location": { "type": "Point", "coordinates": [86.9835, 25.2420] }
-    }
+    },
+    {
+        "slug": "arjun",
+        "name": "Arjun",
+        "scientificName": "Terminalia arjuna",
+        "hindiName": "अर्जुन",
+        "ayushSystems": ["Ayurveda", "Unani", "Siddha"],
+        "uses": ["heart health", "cough"],
+        "partsUsed": ["bark"],
+        "preparation": "Stem bark traditionally used as a powder or decoction (kwatha).",
+        "precautions": "Educational information only. Consult a qualified practitioner before use, especially if you have a heart condition or take heart medication.",
+        "location": { "type": "Point", "coordinates": [86.9846, 25.2428] }
+      },
+      {
+        "slug": "curry-leaf",
+        "name": "Curry Leaf",
+        "scientificName": "Murraya koenigii",
+        "hindiName": "करी पत्ता",
+        "ayushSystems": ["Ayurveda", "Siddha"],
+        "uses": ["digestion", "hair care"],
+        "partsUsed": ["leaf"],
+        "preparation": "Fresh leaves used in food; also used as a paste or infusion in traditional practice.",
+        "precautions": "Educational information only. Consult a qualified practitioner before medicinal use.",
+        "location": { "type": "Point", "coordinates": [86.9844, 25.2422] }
+      },
+      {
+        "slug": "kalanchoe",
+        "name": "Kalanchoe",
+        "scientificName": "Kalanchoe pinnata",
+        "hindiName": "पत्थरचट्टा",
+        "ayushSystems": ["Ayurveda"],
+        "uses": ["wound care", "kidney stones"],
+        "partsUsed": ["leaf"],
+        "preparation": "Fresh leaf juice or poultice in traditional practice.",
+        "precautions": "Educational information only. Consult a qualified practitioner before use. Not for use in pregnancy, and can be harmful to pets.",
+        "location": { "type": "Point", "coordinates": [86.9848, 25.2420] }
+      },
+      {
+        "slug": "mint",
+        "name": "Mint",
+        "scientificName": "Mentha arvensis",
+        "hindiName": "पुदीना",
+        "ayushSystems": ["Ayurveda", "Unani"],
+        "uses": ["digestion", "nausea", "cold"],
+        "partsUsed": ["leaf"],
+        "preparation": "Fresh leaves as an infusion, chutney, or juice.",
+        "precautions": "Educational information only. Consult a qualified practitioner before medicinal use.",
+        "location": { "type": "Point", "coordinates": [86.9840, 25.2427] }
+      }
   ]

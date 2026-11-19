@@ -1,0 +1,17 @@
+ml/raw/
+ml/dataset/
+ml/my_photos/
+ml/.venv/
+ml/preview.jpg
+ml/dataset.zip
+ml/dataset_real/
+ml/dataset_real.zip
+# ML: keep scripts, ignore data, envs and weights
+ml/.venv/
+ml/raw/
+ml/dataset/
+ml/dataset_real/
+ml/my_photos/
+ml/*.zip
+ml/*.keras
+ml/preview.jpg
