@@ -31,4 +31,5 @@ app.get("/api/plants/:slug", async (req, res) => {
 
 await mongoose.connect(process.env.MONGO_URI);
 const PORT = process.env.PORT || 5001;
+app.get("/", (req, res) => res.json({ status: "ok", service: "Virtual Herbal Garden API" }));
 app.listen(PORT, () => console.log(`API on :${PORT}`));
