@@ -30,4 +30,5 @@ app.get("/api/plants/:slug", async (req, res) => {
 });
 
 await mongoose.connect(process.env.MONGO_URI);
-app.listen(process.env.PORT, () => console.log(`API on :${process.env.PORT}`));
+const PORT = process.env.PORT || 5001;
+app.listen(PORT, () => console.log(`API on :${PORT}`));
