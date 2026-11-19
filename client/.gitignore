@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Copied from onnxruntime-web at Vite startup — do not commit vendor WASM
+public/ort/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

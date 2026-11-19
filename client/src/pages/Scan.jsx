@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  classifyImage,
-  USING_MOCK,
-  CONFIDENCE_THRESHOLD,
-} from "../lib/classify";
+import { classifyImage, CONFIDENCE_THRESHOLD } from "../lib/classify";
 
 export default function Scan() {
   const [preview, setPreview] = useState(null);
@@ -45,12 +41,9 @@ export default function Scan() {
       <p className="mt-1 text-sm text-gray-600">
         Supports 6 species only. Use a clear, well-lit photo of a single leaf.
       </p>
-
-      {USING_MOCK && (
-        <div className="mt-3 rounded border border-amber-400 bg-amber-50 p-2 text-sm text-amber-900">
-          DEMO MODE: these are not real predictions.
-        </div>
-      )}
+      <div className="mt-3 rounded border border-amber-400 bg-amber-50 p-2 text-sm text-amber-900">
+        EXPERIMENTAL: trained on a small public dataset, not yet validated on field photos. It can only name 6 species and may mislabel non-leaf images.
+      </div>
 
       <div className="mt-4 flex flex-wrap gap-3">
         <label className="cursor-pointer rounded bg-green-700 px-4 py-2 text-white">
