@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
+import PlantViewer from "../components/PlantViewer.jsx";
 
 export default function PlantDetail() {
   const { slug } = useParams();
@@ -31,7 +32,9 @@ export default function PlantDetail() {
       <p className="italic text-stone-500">
         {plant.scientificName} {plant.hindiName && `· ${plant.hindiName}`}
       </p>
-
+      <div className="mt-6">
+        <PlantViewer src={plant.modelUrl} name={plant.name} credit={plant.modelCredit} />
+      </div>
       <div className="mt-6 grid gap-4 md:grid-cols-2">
         <Section title="Uses" items={plant.uses} />
         <Section title="Parts used" items={plant.partsUsed} />

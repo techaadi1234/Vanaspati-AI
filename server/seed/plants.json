@@ -9,6 +9,8 @@
       "partsUsed": ["leaf", "seed"],
       "preparation": "Leaves used fresh or as a decoction (kadha).",
       "precautions": "Educational information only. Consult a qualified practitioner before use.",
+      "modelUrl": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+      "modelCredit": "Demo model from modelviewer.dev",
       "location": { "type": "Point", "coordinates": [86.9842, 25.2425] }
     },
     {
@@ -21,6 +23,8 @@
       "partsUsed": ["leaf", "bark", "seed oil"],
       "preparation": "Leaf paste for topical use; twigs traditionally used for dental care.",
       "precautions": "Educational information only. Consult a qualified practitioner before use.",
+      "modelUrl": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+      "modelCredit": "Demo model from modelviewer.dev",
       "location": { "type": "Point", "coordinates": [86.9850, 25.2430] }
     },
     {
@@ -33,6 +37,8 @@
       "partsUsed": ["root"],
       "preparation": "Root powder (churna), traditionally taken with milk.",
       "precautions": "Educational information only. Consult a qualified practitioner before use.",
+      "modelUrl": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+      "modelCredit": "Demo model from modelviewer.dev",
       "location": { "type": "Point", "coordinates": [86.9835, 25.2420] }
     }
   ]

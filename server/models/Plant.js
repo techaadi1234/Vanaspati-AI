@@ -13,6 +13,7 @@ const plantSchema = new mongoose.Schema(
     precautions: String,
     image: String,
     modelUrl: String,        // .glb, filled in later
+    modelCredit: String,  
     location: {
       type: { type: String, enum: ["Point"], default: "Point" },
       coordinates: { type: [Number], required: true }, // [lng, lat] — lng FIRST
