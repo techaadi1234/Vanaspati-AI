@@ -1,0 +1,38 @@
+[
+    {
+      "slug": "tulsi",
+      "name": "Tulsi (Holy Basil)",
+      "scientificName": "Ocimum tenuiflorum",
+      "hindiName": "तुलसी",
+      "ayushSystems": ["Ayurveda", "Unani", "Siddha"],
+      "uses": ["cough", "cold", "fever", "stress"],
+      "partsUsed": ["leaf", "seed"],
+      "preparation": "Leaves used fresh or as a decoction (kadha).",
+      "precautions": "Educational information only. Consult a qualified practitioner before use.",
+      "location": { "type": "Point", "coordinates": [86.9842, 25.2425] }
+    },
+    {
+      "slug": "neem",
+      "name": "Neem",
+      "scientificName": "Azadirachta indica",
+      "hindiName": "नीम",
+      "ayushSystems": ["Ayurveda", "Unani", "Siddha", "Homeopathy"],
+      "uses": ["skin disorders", "dental care", "fever"],
+      "partsUsed": ["leaf", "bark", "seed oil"],
+      "preparation": "Leaf paste for topical use; twigs traditionally used for dental care.",
+      "precautions": "Educational information only. Consult a qualified practitioner before use.",
+      "location": { "type": "Point", "coordinates": [86.9850, 25.2430] }
+    },
+    {
+      "slug": "ashwagandha",
+      "name": "Ashwagandha",
+      "scientificName": "Withania somnifera",
+      "hindiName": "अश्वगंधा",
+      "ayushSystems": ["Ayurveda", "Unani"],
+      "uses": ["stress", "sleep", "weakness"],
+      "partsUsed": ["root"],
+      "preparation": "Root powder (churna), traditionally taken with milk.",
+      "precautions": "Educational information only. Consult a qualified practitioner before use.",
+      "location": { "type": "Point", "coordinates": [86.9835, 25.2420] }
+    }
+  ]
