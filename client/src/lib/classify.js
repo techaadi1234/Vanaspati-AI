@@ -1,4 +1,6 @@
-import * as ort from "onnxruntime-web";
+import * as ort from "onnxruntime-web/wasm";
+import ortMjsUrl from "../../node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.mjs?url";
+import ortWasmUrl from "../../node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.wasm?url";
 
 export const USING_MOCK = false;
 export const CONFIDENCE_THRESHOLD = 0.6;
@@ -14,7 +16,7 @@ export const CLASSES = [
 ];
 const LABELS = Object.fromEntries(CLASSES.map((c) => [c.slug, c.label]));
 
-ort.env.wasm.wasmPaths = "/ort/";
+ort.env.wasm.wasmPaths = { mjs: ortMjsUrl, wasm: ortWasmUrl };
 ort.env.wasm.numThreads = 1; // avoids needing cross-origin isolation headers
 
 let loading = null;
